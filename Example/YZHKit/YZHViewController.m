@@ -7,6 +7,7 @@
 //
 
 #import "YZHViewController.h"
+#import <Test.h>
 
 @interface YZHViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [Test test];
 }
 
 - (void)didReceiveMemoryWarning
